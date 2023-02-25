@@ -1,0 +1,889 @@
+@font-face {
+	font-family: "boldenvan_demoregular";
+	src: url("./Fonts/boldenvan/boldenvan-demo-webfont.woff") format("woff"),
+		url("./Fonts//boldenvan/boldenvan-demo-webfont.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.mainSection {
+	width: 100%;
+}
+.wrapper {
+	width: 90%;
+	margin: auto;
+}
+/* <!-- <--- About Title Section ---> */
+.aboutSectionParent {
+	display: flex;
+	/* text-align: center; */
+	flex-direction: column;
+	align-items: center;
+}
+.aboutTitle {
+	width: 136px;
+	height: 38px;
+	background: #fde9e7;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 30px 0px;
+}
+.aboutTitle h4 {
+	color: #f48f86;
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23.2054px;
+	line-height: 123.5%;
+	letter-spacing: -0.025em;
+}
+.aboutSectionParaMain {
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 107%;
+	max-width: 784px;
+	height: 172px;
+	text-align: center;
+	color: #5ec3b2;
+}
+.aboutSectionPara p {
+	width: 531px;
+	height: 66px;
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	color: rgba(52, 52, 53, 0.75);
+	margin: 40px 0px;
+}
+.aboutSectionBtn {
+	background: #f48f86;
+	box-shadow: 0px 2.36px 4.93px rgba(0, 0, 0, 0.05);
+	border-radius: 50px;
+	margin-bottom: 30px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.aboutSectionBtn a {
+	font-family: "boldenvan_demoregular";
+	padding: 10px 25px;
+	background-color: transparent;
+	border: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22.3899px;
+	line-height: 29px;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+}
+/* <!-- <--- About Title Section ---> */
+/* <!-- <--- Image Gallery Section ---> */
+.imgGlr img {
+	width: 100%;
+}
+/* <!-- <--- Image Gallery Section ---> */
+/* <!-- <--- Why For Franky  Section ---> */
+.whySectionParent-wrapper {
+	background: #5ec3b2;
+	margin-top: 40px;
+	/* border-radius: 52% 56% 0% 0% / 12% 12% 52% 74%; */
+	/* width: 1728px; */
+}
+.curveAbout {
+	width: 100%;
+	margin-top: -100px;
+}
+/* <!-- <--- Why For Franky  Section ---> */
+.whySectionHeading {
+	width: fit-content;
+	/* height: 43.85px; */
+	background: rgba(255, 255, 255, 0.2);
+	margin: 20px 0px;
+	padding: 10px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.whySectionHeading p {
+	/* width: 166px; */
+	/* height: 29px; */
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 123.5%;
+	letter-spacing: -0.025em;
+	color: #ffffff;
+}
+.whySectionPara {
+	display: flex;
+	justify-content: center;
+}
+.whySectionPara p {
+	width: 45%;
+	font-style: normal;
+	font-family: "boldenvan_demoregular";
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 1.2;
+	line-height: 107%;
+	text-align: center;
+	color: #ffffff;
+}
+.whySectionBtn {
+	/* width: 200px;
+	height: 50px; */
+	padding: 8px 25px;
+	background: #4b9c8e;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+	border-radius: 81.1844px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0px;
+}
+.whySectionBtn a {
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	/* identical to box height */
+	text-decoration: none;
+	letter-spacing: 0.02em;
+
+	color: #ffffff;
+}
+.whySectionParent {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
+	/* justify-content: center; */
+	align-items: center;
+}
+/* <!-- <--- Care About Section  Section ---> */
+.careAboutParent {
+	display: flex;
+}
+.careAboutParent-TextSection {
+	width: 40%;
+}
+.animalMobilePic {
+	display: none;
+}
+.careAboutParent-TextSection {
+	width: 100%;
+}
+.animalMobilePic {
+	padding: 20px;
+}
+#whySectionHeading_bg {
+	margin: auto;
+}
+.careAboutParent-ImageSection {
+	padding: 25px;
+	width: 60%;
+}
+.careAboutParent img {
+	width: 100%;
+}
+#whySectionHeading_bg {
+	background: #fde9e7;
+}
+#whySectionHeading_bg p {
+	color: #f48f86;
+}
+.careHeading {
+	font-family: "boldenvan_demoregular";
+	color: #ffffff;
+}
+.careHeading p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 107%;
+}
+.carePara {
+	width: 358px;
+	padding: 20px 0px;
+}
+.carePara p {
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 25px;
+	color: #ffffff;
+}
+.careAboutList {
+	list-style: none;
+}
+.careTickICon {
+	width: 30px !important;
+}
+.listCareSection {
+	display: flex;
+	align-items: center;
+	margin: 15px 0px;
+}
+.listCareSection span {
+	color: #ffffff;
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 22px;
+	letter-spacing: 0.04em;
+}
+.tickText {
+	padding-left: 10px;
+}
+.careAboutBtn {
+	width: fit-content;
+	background: #4b9c8e;
+	box-shadow: 0px 2.36px 4.93px rgba(0, 0, 0, 0.05);
+	border-radius: 50px;
+	padding: 10px 20px;
+}
+.careAboutBtn a {
+	color: #ffffff;
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+}
+/* <!-- <--- Care About Section  Section ---> */
+/* <-- FAQ Section --> */
+.faqWrapper {
+	margin-top: 10%;
+}
+.faqHeadingSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.faqHeading {
+	background: #fde9e7;
+	width: fit-content;
+	margin-bottom: 20px;
+}
+.faqHeading span {
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 123.5%;
+	letter-spacing: -0.025em;
+	color: #f48f86;
+	padding: 20px 25px;
+}
+.faqPara {
+	width: 561px;
+}
+.faqPara p {
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 72px;
+	line-height: 107%;
+	text-align: center;
+	color: #5ec3b2;
+}
+.faqDicsPara {
+	margin: 30px 0px;
+}
+.faqDicsPara p {
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: -0.01em;
+	color: rgba(52, 52, 53, 0.75);
+}
+/* <-- FAQ Section --> */
+/* <-- Inquiry Section --> */
+.inqHeading p {
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 46px;
+	/* identical to box height */
+
+	color: #5ec3b2;
+}
+.inquiryLower {
+	font-family: system-ui;
+	margin: 5% 0% 10% 0%;
+}
+.inqPara p {
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: rgba(52, 52, 53, 0.75);
+}
+.inquirySection {
+	margin: auto;
+	width: 65%;
+	padding: 20px 0px;
+}
+.quesHeading {
+	display: flex;
+	justify-content: space-between;
+	vertical-align: middle;
+	align-items: flex-end;
+}
+.quesHeading p {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 27px;
+	color: #343435;
+}
+.question {
+	border-bottom: 1px solid rgba(52, 52, 53, 0.2);
+	padding: 15px 0px;
+}
+.quesPara p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	width: 90%;
+	color: rgba(52, 52, 53, 0.75);
+}
+.faqBtn {
+	background: #f48f86;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 61.5995px;
+	width: fit-content;
+	margin: auto;
+}
+.faqBtn a {
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 52px;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+	padding: 0px 25px;
+}
+/* <-- Inquiry Section --> */
+/* <-- UptoDate Section --> */
+.upt-btn {
+	background: #fde9e7;
+	width: fit-content;
+}
+.upt-btn a {
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23.2054px;
+	line-height: 123.5%;
+	letter-spacing: -0.025em;
+	color: #f48f86;
+	line-height: 1.5;
+	padding: 0px 40px;
+	text-decoration: none;
+}
+.upt-heading {
+	margin: 20px 0px;
+}
+.upt-heading p {
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 98.5%;
+	text-align: center;
+	color: #5ec3b2;
+}
+.upt-para {
+	width: 45%;
+}
+.upt-para p {
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	color: rgba(52, 52, 53, 0.75);
+}
+.read-post-btn a {
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 25px;
+	letter-spacing: 0.04em;
+	color: #f59c93;
+	text-decoration: none;
+	border-bottom: 3px solid #f59c93;
+	padding: 10px 0px;
+	margin: 40px 0px;
+}
+.punch-parent {
+	position: absolute;
+	left: -350px;
+}
+.smallImg {
+	position: absolute;
+	left: 19px;
+	top: -12px;
+}
+.mediumImg {
+	position: absolute;
+	top: -16px;
+	left: 30px;
+}
+.upperSection-update {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.upt-heading-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.positioning-top {
+	position: relative;
+}
+.positioning-bottom {
+	position: relative;
+}
+.punch-parent-btm {
+	position: absolute;
+	left: 380px;
+	top: 21px;
+}
+.utp-upper-Images {
+	display: flex;
+	justify-content: center;
+	padding: 50px 0px;
+}
+/* .updateUp-parent {
+	padding: 100px;
+} */
+/* .bgSecondImage {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+} */
+.bgfirstImage {
+	display: flex;
+	position: relative;
+	margin-right: 20px;
+}
+/* .blogImagesSize {
+	width: 70%;
+} */
+/* -------- Images card css ---------- */
+#secondImgPosition {
+	margin-top: 80px;
+	margin-left: 20px;
+}
+.cardHeading {
+	background: #fde9e7;
+	border-radius: 100px;
+	transform: rotate(-1deg);
+	width: max-content;
+}
+#cardHeading2 {
+	transform: rotate(2deg);
+}
+.cardHeading p {
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 123.5%;
+	letter-spacing: -0.025em;
+	color: #f48f86;
+	padding: 5px 18px;
+	transform: rotate(-1deg);
+	margin-bottom: 15px;
+}
+.cardPara {
+	width: 70%;
+}
+.cardPara p {
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 105%;
+	color: #ffffff;
+	transform: rotate(-1deg);
+	margin-bottom: 15px;
+}
+.autherParent {
+	display: flex;
+}
+.blogImg {
+	max-height: 450px;
+}
+.containerCard {
+	/* margin-bottom: 80px; */
+	/* margin-left: 45px; */
+	position: absolute;
+	/* bottom: 30px; */
+	left: 40px;
+}
+#card1 {
+	bottom: 100px;
+}
+#card2 {
+	bottom: 30px;
+}
+.autherPara p {
+	font-family: "system-ui";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+	transform: rotate(-1deg);
+}
+/* -------- Images card css ---------- */
+.uptpLowerBtn {
+	width: max-content;
+	background: #f48f86;
+	box-shadow: 0px 5.11749px 10.235px rgba(0, 0, 0, 0.05);
+	border-radius: 127.937px;
+	padding: 0px 22px;
+}
+.uptpLowerBtn a {
+	text-decoration: none;
+	font-family: "boldenvan_demoregular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 60px;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+}
+.update-lower {
+	display: flex;
+	justify-content: center;
+	padding: 50px 0px;
+}
+.lwr-rght-img {
+	position: relative;
+	left: -144px;
+	top: -30px;
+}
+.lwr-rght-img img {
+	position: absolute;
+}
+.lwr-lft-img {
+	position: relative;
+}
+.lwr-lft-img img {
+	position: absolute;
+	right: -133px;
+}
+.uptpDate-Section {
+	background: #fefaf7;
+	border-radius: 52% 56% 0% 0% / 12% 12% 52% 74%;
+	padding-top: 150px;
+}
+.bgUpdate {
+	margin-top: 100px;
+}
+/* <-- UptoDate Section --> */
+.careAboutBtn {
+	margin-bottom: 50px;
+}
+.read-post-btn {
+	margin: 25px 0px;
+}
+/* <--- ///////////////////// Responsiveness ///////////////// --> */
+
+/* -------------  Laptop View ------------------------- */
+
+@media screen and (max-width: 768px) {
+	.aboutSectionParaMain {
+		font-size: 70px;
+	}
+	.whySectionPara p {
+		font-size: 28px;
+		width: 65%;
+	}
+	.careHeading p {
+		font-size: 36px;
+	}
+	.carePara p {
+		width: 60%;
+		font-size: 14px;
+		line-height: 1.1;
+		font-weight: 100;
+	}
+	.faqPara p {
+		font-size: 70px;
+	}
+	.punch-parent-btm {
+		left: 300px;
+	}
+	.upt-heading p {
+		font-size: 3rem;
+	}
+	/* ---------- Blog Card ----------- */
+	.blogImg {
+		max-height: 340px;
+	}
+	.cardPara p {
+		font-size: 18px;
+	}
+	.cardHeading p {
+		font-size: 15px;
+	}
+	.autherPara p {
+		font-size: 12px;
+	}
+	/* ---------- Blog Card ----------- */
+}
+/* -------------  Mobile View ------------------------- */
+@media screen and (max-width: 425px) {
+	.aboutSectionParaMain {
+		font-size: 2.4rem;
+		height: 66px;
+	}
+	.careAboutParent-ImageSection {
+		display: none;
+	}
+	.aboutSectionParaMain p {
+		font-size: 2rem;
+	}
+	.aboutSectionPara p {
+		width: auto;
+		font-size: 0.9rem;
+	}
+	.faqPara {
+		width: 100%;
+	}
+	.faqPara p {
+		font-size: 2.8rem;
+	}
+	.lwr-lft-img img {
+		right: -94px;
+	}
+	.lwr-rght-img {
+		left: -70px;
+	}
+	.lwr-rght-img img {
+		width: 20%;
+	}
+	.lwr-lft-img img {
+		width: 15%;
+	}
+	.upt-heading p {
+		font-size: 2rem;
+	}
+	.punch-parent {
+		left: -180px;
+	}
+	.punch-parent-btm {
+		left: 150px;
+	}
+	.upt-para p {
+		font-size: 1rem;
+		line-height: 20px;
+	}
+	.upt-para {
+		width: 75%;
+	}
+	.punch-parent-btm {
+		top: -30px;
+	}
+	.whySectionPara p {
+		font-size: 1.3rem;
+		width: 75%;
+	}
+	.careHeading p {
+		font-size: 1.4rem;
+		text-align: justify;
+	}
+	.carePara p {
+		text-align: justify;
+		width: 50%;
+	}
+	.listCareSection span {
+		font-size: 0.8rem;
+	}
+	.listCareSection {
+		margin: 0;
+	}
+	.tickText {
+		margin-bottom: 5px;
+	}
+	.careAboutBtn a {
+		font-size: 18px;
+	}
+	.careAboutBtn {
+		padding: 5px 20px;
+	}
+	.curveAbout {
+		width: 100%;
+		margin-top: -100px;
+		margin-bottom: 5px;
+	}
+	.whySectionParent-wrapper {
+		/* border-radius: 68% 61% 0% 0% / 9% 8% 7% 9%; */
+		margin-top: 3px;
+	}
+	.inqHeading p {
+		font-size: 1.8rem;
+	}
+	.careHeading {
+		display: flex;
+		justify-content: center;
+	}
+	.carePara {
+		padding: 20px 40px;
+	}
+	.careAboutList {
+		padding: 0px 35px;
+	}
+	.careAboutBtn {
+		margin: 20px auto;
+	}
+	.uptpDate-Section {
+		padding: 100px 0px;
+	}
+	/* .updateUp-parent {
+		padding: 50px 0px 0px 0px;
+	} */
+	.animalMobilePic {
+		display: block;
+		text-align: center;
+	}
+	.animalMobilePic img {
+		width: 80%;
+		margin-bottom: 10px;
+	}
+	/* ---------- Blog Card ----------- */
+	.utp-upper-Images {
+		display: block;
+	}
+	.bgfirstImage {
+		margin: 0;
+		display: flex;
+		justify-content: center;
+	}
+	.containerCard {
+		left: 105px;
+	}
+	#card1 {
+		bottom: 20px;
+	}
+	#card2 {
+		bottom: 20px;
+	}
+	/* ---------- Blog Card ----------- */
+}
+@media screen and (max-width: 375px) {
+	.aboutSectionParaMain {
+		font-size: 1.8rem;
+		height: 30px;
+	}
+	.carePara {
+		width: 100%;
+	}
+	.curveAbout {
+		margin-bottom: 10px;
+	}
+	.whySectionParent-wrapper {
+		/* border-radius: 102% 88% 0% 0% / 9% 8% 7% 9%; */
+		margin-top: 12px;
+	}
+	.whySectionParent {
+		padding: 35px 0px;
+	}
+	.whySectionPara p {
+		font-size: 1rem;
+		width: 90%;
+	}
+	.lwr-lft-img {
+		display: none;
+	}
+	.lwr-rght-img {
+		display: none;
+	}
+	.punch-parent-btm {
+		display: none;
+	}
+	.positioning-top {
+		display: none;
+	}
+	/* .utp-upper-Images {
+		display: block;
+	} */
+	/* .bgSecondImage {
+		text-align: center;
+	} */
+	.careAboutParent {
+		display: block;
+	}
+	.careAboutParent-TextSection {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.carePara p {
+		margin: auto;
+		width: 90%;
+	}
+	.careAboutListing {
+		margin-right: auto;
+	}
+	.careAboutParent-ImageSection {
+		display: none;
+	}
+	.careAboutBtn {
+		margin: 20px 0px 20px 0px;
+	}
+	.faqPara p {
+		font-size: 2.4rem;
+	}
+	.inqHeading p {
+		font-size: 1.6rem;
+	}
+	.bgUpdate {
+		margin-top: 12px;
+	}
+	.uptpDate-Section {
+		padding: 70px 0px 20px 0px;
+	}
+	.uptpDate-Section {
+		border-radius: 54% 56% 0% 0% / 5% 6% 52% 74%;
+	}
+	.aboutSectionParaMain {
+		margin-bottom: 20px;
+	}
+	/* ---------- Blog Card ----------- */
+	.containerCard {
+		left: 50px;
+	}
+	/* ---------- Blog Card ----------- */
+}
